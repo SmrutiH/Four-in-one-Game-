@@ -5,6 +5,7 @@
 void bipos()
 {
 	int i;
+	i=0;
 	clrscr();
 	for(int j=0;j<10;j++)
 	{
@@ -72,7 +73,8 @@ void setup()
 }
 void  main()
 {
-	int a=9,b=2;
+	int a=9;
+	int b=2;
 	initgraph(&a,&b,"c:\\tc\\bgi");
 	setup();
 	getch();
